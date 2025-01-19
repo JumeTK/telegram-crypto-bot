@@ -1,9 +1,9 @@
 {
   "name": "crypto-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node api/bot.js"
+    "start": "node api/server.js"
   },
   "keywords": [],
   "author": "",
