@@ -53,10 +53,10 @@ async function fetchAndPostPrices() {
 }
 
 // Fetch and post crypto prices every minute (60000ms)
-setInterval(fetchAndPostPrices, 60000);
+// setInterval(fetchAndPostPrices, 60000);
 
-// Initially post the prices as soon as the bot starts
- fetchAndPostPrices();
+// // Initially post the prices as soon as the bot starts
+//  fetchAndPostPrices();
 
 // Define the Vercel serverless function handler
 module.exports = async (req, res) => {
