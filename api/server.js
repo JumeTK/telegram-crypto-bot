@@ -35,7 +35,7 @@ async function fetchAndPostPrices() {
 
 🔴 <b>Node Coin (NC):</b>
    - Price: <code>${prices[3]?.current_price || 'N/A'}</code>
-   - Market Cap: <code>${prices[3]?.market_cap?.toLocaleString() || 'N/A'}</code>
+   - Market Cap: <code>${prices[3]?.market_cap?.toLocaleString() || 'Data not available'}</code>
         
    <b>➖➖➖➖</b>
 
