@@ -56,7 +56,7 @@ async function fetchAndPostPrices() {
 setInterval(fetchAndPostPrices, 60000);
 
 // Initially post the prices as soon as the bot starts
-fetchAndPostPrices();
+// fetchAndPostPrices();
 
 // Define the Vercel serverless function handler
 module.exports = async (req, res) => {
